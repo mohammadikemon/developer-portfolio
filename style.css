@@ -1,20 +1,17 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
-    font-family:'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 div {
     display: block;
 }
 
-/* Header style starts from here  */
-/* Nav style starts from here  */
 .header {
-    background: url(images/header_bg.png),url(images/developer.png), #FFF8F3;
+    background: url("images/header_bg.png") right bottom, url("images/developer.png") left center, rgb(255, 248, 243);
     background-repeat: no-repeat;
-    background-position: bottom right, left;
-    padding: 0px 0px;
+    padding: 0px;
 }
 
 .header nav {
@@ -24,12 +21,12 @@ div {
 }
 
 .header nav .dev-title {
-    font-weight: 600;   
+    font-weight: 600;
     font-size: 45px;
 }
 
 .header nav .dev-title span {
-    color: #FD6E0A
+    color: rgb(253, 110, 10);
 }
 
 .header nav ul {
@@ -49,20 +46,19 @@ div {
     font-weight: 700;
     font-size: 20px;
     padding: 16px 32px;
-    border: 1px solid #FD6E0A;
+    border: 1px solid rgb(253, 110, 10);
     border-radius: 5px;
-    background-color: #FD6E0A;
-    color: #FFFFFF;
+    background-color: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
 .btn-primary:hover {
     border: 1px solid;
     background-color: transparent;
-    color:#000000
+    color: rgb(0, 0, 0);
 }
 
-/* Banner style start from here  */
 .header .banner {
     display: flex;
     margin: 0px 200px;
@@ -72,7 +68,7 @@ div {
 
 .header .banner h3.banner-sub-title {
     font-size: 45px;
-    margin: 0 0 20px 0;
+    margin: 0px 0px 20px;
     font-weight: 600;
 }
 
@@ -83,7 +79,7 @@ div {
 }
 
 .header .banner p.banner-description {
-    color: #757575;
+    color: rgb(117, 117, 117);
     font-size: 18px;
     margin-bottom: 30px;
 }
@@ -94,7 +90,7 @@ div {
 
 main {
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 section {
@@ -102,20 +98,21 @@ section {
 }
 
 section.about {
-    background: #FFF8F3;
+    background: rgb(255, 248, 243);
     text-align: center;
-    padding: 100px 130px;
+    padding: 80px 130px;
     border-radius: 10px;
 }
 
-section.about .sec-title {
+section .sec-title {
     font-size: 35px;
     font-weight: 600;
     margin-bottom: 70px;
+    text-align: center;
 }
 
 section.about .sec-description {
-    color: #757575;
+    color: rgb(117, 117, 117);
     font-size: 18px;
     margin-bottom: 50px;
 }
@@ -127,12 +124,38 @@ section.about .about-info-container {
 
 section.about .about-info-container .info-title {
     font-size: 20px;
-    color: #757575;
+    color: rgb(117, 117, 117);
     margin-bottom: 10px;
 }
 
 section.about .about-info-container .info-description {
-    color: #474747;
+    color: rgb(71, 71, 71);
     font-weight: 700;
     font-size: 20px;
+}
+
+section.what-i-do {
+    padding: 0px 0px 100px;
+}
+
+section .skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+section .skill-container .skill {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 6px 50px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+section .skill-container .skill .skill-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+section .skill-container .skill .skill-description {
+    color: rgb(117, 117, 117);
 }
