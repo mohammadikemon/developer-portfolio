@@ -217,10 +217,15 @@ section.contact {
     border-radius: 5px;
 }
 
+section.contact .sec-title {
+    text-align: left;
+}
+
 section.contact .sec-description {
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 20px;
+    color: #757575;
 }
 
 section.contact a {
