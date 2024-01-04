@@ -40,15 +40,14 @@ div {
     font-size: 18px;
     cursor: pointer;
 }
-
 .btn-primary {
     height: 60px;
     font-weight: 700;
     font-size: 20px;
     padding: 16px 32px;
-    border: 1px solid rgb(253, 110, 10);
+    border: 1px solid #FD6E0A;
     border-radius: 5px;
-    background-color: rgb(253, 110, 10);
+    background-color: #FD6E0A;
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
@@ -134,9 +133,7 @@ section.about .about-info-container .info-description {
     font-size: 20px;
 }
 
-section.what-i-do {
-    padding: 0px 0px 100px;
-}
+
 
 section .skill-container {
     display: flex;
@@ -158,4 +155,52 @@ section .skill-container .skill .skill-title {
 
 section .skill-container .skill .skill-description {
     color: rgb(117, 117, 117);
+}
+
+/* Resume styles starts from here  */
+section.resume .resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+section.resume .resume-container hr {
+    border: 1px solid #FD6E0A;
+}
+
+section.resume .resume-container .resume-type {
+    color: #474747;
+    font-size: 28px;
+    margin: 10px 0 30px 0;
+}
+
+section.resume .resume-container .resume-item {
+    margin: 35px 0;
+}
+
+section.resume .resume-container .resume-item .res-title {
+    color: #474747;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+section.resume .resume-container .resume-item .res-sub-title {
+    color: #757575;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+section.resume .resume-container .resume-item .res-description {
+    color: #757575;
+    margin: 20px 0;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+section.resume .btn-primary {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
 }
